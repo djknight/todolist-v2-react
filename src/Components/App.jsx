@@ -1,9 +1,12 @@
 import React, { Component } from "react";
-import Header from "./Header";
+import About from "./About";
+// import Header from "./Header";
 import Footer from "./Footer";
 import Date from "./Date";
 
-//header and footers first /css
+//about
+//list?
+//header and footers /css
 // create entry points
 //props
 //import
@@ -12,7 +15,8 @@ import Date from "./Date";
 function App() {
   return (
     <div>
-      <Header />
+      <Date />
+      <About />
       <Footer />
     </div>
   );
