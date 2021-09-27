@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import About from "./About";
 // import Header from "./Header";
 import Footer from "./Footer";
-import Date from "./Date";
+import Today from "./Today";
 
 //about
 //list?
@@ -15,7 +15,7 @@ import Date from "./Date";
 function App() {
   return (
     <div>
-      <Date />
+      <Today />
       <About />
       <Footer />
     </div>
